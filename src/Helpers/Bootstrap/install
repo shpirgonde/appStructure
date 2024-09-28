@@ -1,0 +1,11 @@
+1. How to install and set up bootstrap
+- npm i bootstrap@5.0.1
+-  And edit the angular.json file
+
+        "styles": [
+          "node_modules/bootstrap/dist/css/bootstrap.min.css", //<--add this line
+          "src/styles.css"
+        ],
+        "scripts": [
+          "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" //<--and this line
+        ]
